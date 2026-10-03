@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Subtitles on Screen
+GenericName=Subtitle Overlay Player
+Comment=Muestra subtítulos flotantes sobre cualquier ventana en pantalla con modo Click-Through
+Exec=/usr/bin/python3 /home/carmen/subtitlesonscreen/main.py %f
+Icon=subtitlesonscreen
+Terminal=false
+Categories=AudioVideo;Player;Utility;
+MimeType=application/x-subrip;text/vtt;text/x-ssa;text/x-ass;
+Keywords=subtitles;overlay;captions;srt;vtt;video;transcription;
+StartupNotify=true
+StartupWMClass=subtitlesonscreen

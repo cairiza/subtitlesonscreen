@@ -1,0 +1,39 @@
+1
+00:00:01,000 --> 00:00:04,500
+¡Bienvenido a <b>SubtitlesOnScreen</b>!
+
+2
+00:00:05,000 --> 00:00:09,000
+Esta aplicación muestra subtítulos flotantes sobre cualquier ventana en Ubuntu.
+
+3
+00:00:09,500 --> 00:00:14,200
+Puedes ver películas, conferencias o videos en tu navegador o reproductor favorito.
+
+4
+00:00:15,000 --> 00:00:19,500
+Con el <b>Modo Transparente (Click-Through)</b>, los clics del ratón atraviesan los subtítulos.
+
+5
+00:00:20,000 --> 00:00:24,000
+Así puedes pausar el video de fondo o navegar sin interferencias.
+
+6
+00:00:24,800 --> 00:00:28,500
+Usa el atajo global <b>Alt + Shift + P</b> para Pausar / Reanudar.
+
+7
+00:00:29,000 --> 00:00:33,200
+Y usa <b>Alt + Shift + L</b> para Bloquear o Desbloquear el movimiento.
+
+8
+00:00:34,000 --> 00:00:39,000
+Puedes cambiar el tamaño de fuente, color, contorno y fondo desde el Panel de Control.
+
+9
+00:00:40,000 --> 00:00:45,000
+También puedes sincronizar el audio con los botones de adelanto y retraso milimétrico.
+
+10
+00:00:46,000 --> 00:00:50,500
+¡Disfruta de tus videos y contenido multimedia con subtítulos perfectos!

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#11111b"/>
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e95420"/>
+      <stop offset="100%" stop-color="#77216f"/>
+    </linearGradient>
+    <linearGradient id="subBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#313244" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1e1e2e" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Screen Outer Frame -->
+  <rect x="24" y="28" width="208" height="152" rx="16" fill="url(#gradAccent)" filter="url(#shadow)"/>
+  <rect x="28" y="32" width="200" height="144" rx="12" fill="url(#gradBg)"/>
+
+  <!-- Screen Content / Video illusion -->
+  <path d="M 44 140 Q 90 90 140 120 T 212 90 L 212 160 L 44 160 Z" fill="#262738" opacity="0.6"/>
+  <circle cx="170" cy="70" r="14" fill="#f9e2af" opacity="0.3"/>
+
+  <!-- Subtitle Bar (Floating Overlay) -->
+  <rect x="42" y="122" width="172" height="42" rx="8" fill="url(#subBg)" stroke="#cdd6f4" stroke-width="1.5" stroke-opacity="0.4"/>
+  
+  <!-- Subtitle Text Lines -->
+  <rect x="58" y="132" width="140" height="8" rx="4" fill="#ffffff"/>
+  <rect x="74" y="146" width="108" height="8" rx="4" fill="#f9e2af"/>
+
+  <!-- Monitor Stand -->
+  <path d="M 112 180 L 144 180 L 152 216 L 104 216 Z" fill="#45475a"/>
+  <rect x="80" y="216" width="96" height="14" rx="7" fill="#313244"/>
+
+  <!-- CC (Closed Captions) Badge in Corner -->
+  <rect x="180" y="44" width="36" height="22" rx="4" fill="#e95420"/>
+  <text x="186" y="59" font-family="sans-serif" font-weight="bold" font-size="12" fill="#ffffff" letter-spacing="1">CC</text>
+</svg>
